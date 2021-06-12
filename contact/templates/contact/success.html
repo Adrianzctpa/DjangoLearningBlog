@@ -1,0 +1,8 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class='alert alert-info'>
+        Your message has been sent.
+    </div>
+    <a class="btn btn-outline-info" href='{% url 'blog-home' %}'>Home</a>
+{% endblock content %}  
